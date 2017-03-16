@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>eu.organicity.client</groupId>
-    <artifactId>parent</artifactId>
-    <version>1.0</version>
+    <groupId>eu.organicity</groupId>
+    <artifactId>client-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>OrganiCity :: Client</name>
 
@@ -54,7 +54,7 @@
             </plugin>
         </plugins>
     </build>
-    
+
     <distributionManagement>
         <snapshotRepository>
             <id>organicity</id>
