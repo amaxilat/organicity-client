@@ -12,6 +12,10 @@
     <packaging>jar</packaging>
     <name>OrganiCity :: Client :: Common</name>
 
+    <properties>
+        <java.version>1.7</java.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
