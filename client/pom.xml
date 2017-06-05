@@ -27,12 +27,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>cti.organicity.set</groupId>
-            <artifactId>set-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>eu.organicity.client</groupId>
+            <groupId>eu.organicity</groupId>
             <artifactId>client-android</artifactId>
             <version>1.0-SNAPSHOT</version>
             <exclusions>
@@ -49,10 +44,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
         </dependency>
 
         <!--#################################################################################################-->
